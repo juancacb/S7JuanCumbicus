@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="S7JuanCumbicus.Login">
+    <ContentPage.Content>
+        <ScrollView>
+            <StackLayout Padding="30" Spacing="30">
+                <Entry Placeholder="Ingrese el usuario" Keyboard="Email" x:Name="usuario"></Entry>
+                <Entry Placeholder="Ingrese la contraseña" IsPassword="True" x:Name="contrasenia"></Entry>
+                <Button x:Name="BtnLogin" Text="Iniciar sesión" BackgroundColor="DarkCyan" TextColor="White" Clicked="BtnLogin_Clicked"></Button>
+                <Button x:Name="BtnRegistrar" Text="Registrar" Clicked="BtnRegistrar_Clicked"></Button>
+            </StackLayout>
+        </ScrollView>
+    </ContentPage.Content>
+</ContentPage>
